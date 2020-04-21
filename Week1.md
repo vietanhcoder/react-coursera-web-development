@@ -58,3 +58,15 @@ git checkout <Number commit>
 ```
 git reset
 ```
+
+### vanilla javascript = pure JS
+
+## Library
+
+- A software library gives you a well-defined collection of implementations or repeated behaviors that you can use to quickly implement complicated applications.
+- This is where the reuse of behavior is of paramount importance for us (reuse)
+- Modularity : JQuery
+
+## Framework
+
+- Abstraction in which software provides generic functionality that can be selectively changed by additional user-written code (Angul b ar)

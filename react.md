@@ -1,0 +1,2 @@
+- A JS library for building user interfaces.
+- declarative

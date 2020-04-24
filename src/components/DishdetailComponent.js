@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 
-class DishDetail extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedDish: null,
-    };
-  }
+import { Card, CardImg, CardTitle, CardText, CardBody } from "reactstrap";
 
+class DishDetail extends Component {
   render() {
+    const { dish } = this.props;
     return (
-      <div>
-        <p>{this.state.props.dish}</p>
-      </div>
+      <Card>
+        <CardImg width="100%" object src={dish.image} alt={dish.name} />
+        <CardBody>
+          <CardTitle>{dish.name}</CardTitle>
+          <CardText>{dish.description}</CardText>
+        </CardBody>
+      </Card>
     );
   }
 }
